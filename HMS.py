@@ -37,6 +37,7 @@ try:#to handle error
                     a1 = f.write(str([str(gettime())]) +"\n"+"Food:"+ food1+"\n")
                     print("Logged Successfully")
 
+# _______________________Part 3.2___________________________________
     def retrive(r):
         if r==1:
              with open("Caleb's Log.txt") as f:
